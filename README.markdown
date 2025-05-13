@@ -1,5 +1,6 @@
 # COVID-19 Global Data Tracker
 
+
 ## Project Overview
 The **COVID-19 Global Data Tracker** is a data analysis project that explores global COVID-19 trends using the Our World in Data dataset. The goal is to analyze cases, deaths, and vaccinations across countries, visualize trends with charts, and summarize findings in a Jupyter Notebook. This project is ideal for beginners learning data analysis with Python, focusing on real-world data cleaning, exploratory data analysis (EDA), and visualization.
 
