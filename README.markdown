@@ -20,7 +20,7 @@ As of now, the project is in **Step 3: Data Loading and Exploration**. The follo
 - Loaded the `owid-covid-data.csv` dataset using pandas.
 - Explored the dataset structure (columns, sample rows, and missing values).
 
-The Jupyter Notebook (`COVID19_Tracker.ipynb`) contains code to:
+The Jupyter Notebook (`covid.ipynb`) contains code to:
 - Read the CSV file.
 - Display column names, preview data, and check for missing values.
 
@@ -38,10 +38,7 @@ The project uses the **Our World in Data COVID-19 dataset** (`owid-covid-data.cs
 - Vaccination metrics (e.g., total vaccinations).
 - Other metrics like population and death rates.
 
-**Note**: The dataset is not included in this repository due to its large size. Download it from:
-- [Our World in Data GitHub](https://github.com/owid/covid-19-data/raw/master/public/data/owid-covid-data.csv)
 
-Place the `owid-covid-data.csv` file in the same folder as the Jupyter Notebook before running the code.
 
 ## Requirements
 To run this project, you need:
@@ -62,18 +59,15 @@ Optional (for future choropleth maps):
 pip install plotly
 ```
 
-Alternatively, use the provided `requirements.txt`:
-```bash
-pip install -r requirements.txt
-```
+
 
 ## How to Run
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/COVID19-Tracker.git
-   cd COVID19-Tracker
+   git clone https://github.com/victorke485/plp_python_final_project.git
+   cd plp_python_final_project
    ```
-   Replace `yourusername` with your GitHub username.
+  
 
 2. **Download the Dataset**:
    - Get `owid-covid-data.csv` from the [link above](https://github.com/owid/covid-19-data/raw/master/public/data/owid-covid-data.csv).
@@ -94,29 +88,3 @@ pip install -r requirements.txt
    - Open `COVID19_Tracker.ipynb` in the browser.
    - Run all cells to see the data loading and exploration results.
 
-## Repository Contents
-- `COVID19_Tracker.ipynb`: Jupyter Notebook with the project code and outputs.
-- `README.md`: This file, explaining the project.
-- `requirements.txt`: List of required Python libraries.
-- `.gitignore`: Excludes large files (e.g., `owid-covid-data.csv`) and temporary files (e.g., `.ipynb_checkpoints`).
-
-## Future Enhancements
-As the project progresses, I plan to:
-- Add more countries for comparison.
-- Create interactive visualizations with Plotly.
-- Export the notebook as a PDF report.
-- Share key insights on GitHub or a blog.
-
-## Contributing
-This is a learning project, but feedback is welcome! If you have suggestions:
-- Open an issue on this repository.
-- Submit a pull request with proposed changes.
-
-## Acknowledgments
-- **Our World in Data** for providing the COVID-19 dataset.
-- Online tutorials and communities (e.g., Stack Overflow) for Python and pandas guidance.
-
-## Contact
-For questions, reach out via GitHub issues or [your.email@example.com] (replace with your contact if desired).
-
-Happy analyzing!
